@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.paypal.bfs.test.bookingserv.impl.test.BookingResourceImplTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.858 s <<< FAILURE! - in com.paypal.bfs.test.bookingserv.impl.test.BookingResourceImplTest
+createBookingTest(com.paypal.bfs.test.bookingserv.impl.test.BookingResourceImplTest)  Time elapsed: 1.013 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.paypal.bfs.test.bookingserv.impl.test.BookingResourceImplTest.createBookingTest(BookingResourceImplTest.java:62)
+
+getAllBookingsTest(com.paypal.bfs.test.bookingserv.impl.test.BookingResourceImplTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.paypal.bfs.test.bookingserv.impl.test.BookingResourceImplTest.getAllBookingsTest(BookingResourceImplTest.java:36)
+
